@@ -1,6 +1,5 @@
-### Frontend
 
-Refactor your code to use components.
+Refactor your code to use components. If you didn't finish tasks 1 and 2, use this [starting point](https://github.com/JoinCODED/React-Task-3-RefactoringUsingComponents).
 
 #### Setup
 
