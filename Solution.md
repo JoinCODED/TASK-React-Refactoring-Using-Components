@@ -39,7 +39,7 @@ import Home from "./components/Home";
 
  ```jsx
 return (
-    <div style={styles.body}>
+    <div className="body">
         <div>...</div>
         <Home />
     <div>
@@ -58,7 +58,7 @@ const Home = () => {
       <img
         alt="cookie shop"
         src="https://i.pinimg.com/originals/8f/cf/71/8fcf719bce331fe39d7e31ebf07349f3.jpg"
-        className="shop-image"
+        className="shopImage"
       />
     </div>
   );
@@ -90,7 +90,7 @@ import Home from "./components/Home";
 
  ```jsx
   return (
-    <div style={styles.body}>
+    <div className="body">
         <div>...</div>
         <Home />
         <CookieList />
@@ -106,8 +106,8 @@ import Home from "./components/Home";
  
  const CookieList = () => {
    const cookieList = cookies.map((cookie) => (
-     <div className="cookie"}>
-       <img className="cookie-image" alt={cookie.name} src={cookie.image} />
+     <div className="product"}>
+       <img className="productImage" alt={cookie.name} src={cookie.image} />
        <p className="text">{cookie.name}</p>
        <p className="text">{cookie.price} KD</p>
      </div>
@@ -126,7 +126,7 @@ import Home from "./components/Home";
  const CookieItem = (props) => {
    const cookie = props.cookie;
    return (
-     <div className="cookie"}>
+     <div className="product"}>
        <img className="cookie-image" alt={cookie.name} src={cookie.image} />
        <p className="text">{cookie.name}</p>
        <p className="text">{cookie.price} KD</p>
