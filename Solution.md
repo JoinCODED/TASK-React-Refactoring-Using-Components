@@ -127,7 +127,7 @@ import Home from "./components/Home";
    const cookie = props.cookie;
    return (
      <div className="product"}>
-       <img className="cookie-image" alt={cookie.name} src={cookie.image} />
+       <img className="productImage" alt={cookie.name} src={cookie.image} />
        <p className="text">{cookie.name}</p>
        <p className="text">{cookie.price} KD</p>
      </div>
